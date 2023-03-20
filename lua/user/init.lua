@@ -1,11 +1,7 @@
-print("user init")
+--print("load /lua/user/init.lua")
+
+require ("user.remap")
 
 require ("user.set")
-
-require ("user.packer")
-require ("user.tokyonight")
-require ("user.telescope")
-
-require ("user.lsp")
-
-
+require ("user.packer") 
+require ("user.telescopekeymap")
